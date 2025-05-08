@@ -59,3 +59,77 @@ ul {
 .hero-content h1{
         margin-top: 10px;
 }
+
+/* Contact Info Boxes */
+
+.contact-info {
+    text-align: center;
+    padding: 60PX 20PX;
+}
+
+.contact-info h3 {
+    color: var(--Orange);
+}
+
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.info-box {
+    background-color: #f7f7f7;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0.5px 1px 1px #333;
+}
+
+.info-box.dark {
+    background-color: var(--blue);
+    color: white;
+}
+
+.info-box img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+/* Contact Form + Map */
+
+.contact-map-form {
+    display: flex;
+    flex: wrap;
+    gap: 30px;
+    padding: 60px 20px;
+    justify-content: center;
+}
+
+.map, .contact-info {
+    flex: 1 1 300px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: var(--Orange);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 20px;
+}
