@@ -133,3 +133,30 @@ ul {
     cursor: pointer;
     border-radius: 20px;
 }
+
+/* FOOTER */
+footer {
+    background: #0a1e3a;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-box {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  
+  .footer-box img {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-box ul li {
+    margin: 5px 0;
+  }
