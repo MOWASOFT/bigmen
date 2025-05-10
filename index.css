@@ -189,4 +189,7 @@ footer {
    iframe {
     width: 250px;
    }
+   footer {
+      text-align: center;
+   }
   }
