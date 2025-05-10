@@ -185,9 +185,10 @@ footer {
    .contact-map-form {
     flex-direction: column;
     margin-top: -70px;
+    justify-content: center;
    }
    iframe {
-    width: 280px;
+    width: 250px;
     height: 300px;
    }
    footer {
